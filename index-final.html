@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- Configurações básicas do documento -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  
+  <!-- Título da página: aparece na aba do navegador -->
+  <title>Pompolimpíadas 2024 | Aula Gratuita de Ginástica Íntima com Cátia Damasceno</title>
+  
+  <!-- Meta description: para SEO e pré-visualização em redes sociais -->
+  <meta name="description" content="Participe da superaula gratuita de Ginástica Íntima com Cátia Damasceno. Conquiste o ouro em saúde íntima, autoestima e prazer nas Pompolimpíadas 2024."/>
+  
+  <!-- Open Graph: propriedades para compartilhamento em redes sociais -->
+  <meta property="og:title" content="Pompolimpíadas 2024 | Aula Gratuita de Ginástica Íntima"/>
+  <meta property="og:description" content="Aprenda a dominar a arte do aperta e solta e conquiste o ouro em saúde íntima. Dia 13 de agosto, às 20h."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content="imagens/fundo.png"/> 
+  <meta property="og:url" content="https://seusite.com.br"/>
+  
+  <!-- Ícones do site -->
+  <link rel="icon" href="/favicon.ico" sizes="any"/>
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+
+  <!-- Importando TailwindCSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Importando fonte do Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,900&display=swap" rel="stylesheet">
+  
+  <!-- Estilos customizados da página -->
+  <style>
+    /* Fonte padrão do site */
+    body {
+      font-family: 'Nunito Sans', sans-serif;
+      background-color: #f0f0f0; /* Cor de fundo neutra para contraste */
+    }
+
+    /* Seção com fundo customizado e efeito de blend */
+    .background-custom {
+      background-color: #1A18BB;
+      position: relative;
+      isolation: isolate;
+    }
+    .background-custom::before{
+      content: '';
+      position: absolute;
+      top:0; left:0; right:0; bottom:0;
+      background-image: url('imagens/fundobox.png'); /* Imagem de fundo da seção */
+      background-size: cover;
+      background-position: center;
+      opacity: 0.8;
+      mix-blend-mode: color-burn;
+      z-index:-1;
+      border-radius: 1.5rem;
+    }
+
+    /* Seções com imagens de fundo específicas */
+    .section-talvez-bg {
+      background-image: url('imagens/talvez 1.png');
+      background-position: top center;
+      background-repeat: no-repeat;
+      background-size: 100% auto;
+      background-color: #fff;
+      margin-top: 0;
+    }
+    .section-fundo2-bg {
+      background-image: url('imagens/fundo2.png');
+      background-position: top center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-color: #fff;
+      margin-top: 0;
+    }
+    .section-quem-vai-te-ensinar-bg {
+      background-image: url('imagens/Rectangle 1572.png');
+      background-position: top center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 0;
+    }
+    .footer-bg {
+      background-image: url('imagens/Rectangle 1573.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 0;
+    }
+
+    /* Classe global para remover margens e padding */
+    .no-gap {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body class="no-gap">
+
+  <!-- Header: seção principal da página com background e chamada principal -->
+  <header class="bg-cover bg-center text-white relative no-gap min-h-screen" style="background-image: url('imagens/fundo.png');">
+    <div class="absolute inset-0 flex items-center">
+      <div class="container mx-auto px-6">
+        <div class="w-full lg:w-1/2 space-y-5 max-w-[539px]">
+          
+          <!-- Logo -->
+          <img src="imagens/Azul 1.png" alt="Pompo Olimpíadas Logo" class="mb-6 w-80" width="320" height="150" loading="lazy" decoding="async">
+          
+          <!-- Descrição da super aula -->
+          <p class="text-xl lg:text-2xl leading-snug">
+            Entrando no ritmo das Olimpíadas, eu vou realizar uma superaula on-line e gratuita, onde eu vou ensinar todos os exercícios do meu curso de Ginástica Íntima para todas as mulheres que se preocupam em desenvolver a própria intimidade.
+          </p>
+          
+          <!-- Informações de data e inscrição -->
+          <p class="text-xl lg:text-2xl leading-snug font-bold">
+            <span class="text-[#D4C47E]">Ao vivo, dia 13 de agosto, às 20h, horário de Brasília.</span>
+            <span class="text-white">Cadastre-se, gratuitamente, e receba o link da live.</span>
+          </p>
+          
+          <!-- Campo de cadastro (imagem simulando formulário) -->
+          <img src="imagens/email.png" alt="Campo para inserir o e-mail" class="w-[532px] max-w-none pt-4" width="532" height="70" loading="lazy" decoding="async">
+          
+          <!-- Aviso de privacidade -->
+          <p class="text-xs pt-2 opacity-80 w-[532px] max-w-none">NÃO SE PREOCUPE, SEUS DADOS ESTÃO PROTEGIDOS DE ACORDO COM A LEI LGPD.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="no-gap">
+
+    <!-- Seção “O que você vai aprender” -->
+    <section class="section-talvez-bg">
+      <div class="relative z-10 mx-auto px-6 pt-16">
+        <div class="background-custom border-4 border-[#D4C47E] rounded-3xl text-center max-w-3xl mx-auto p-6">
+          <!-- Título da seção -->
+          <h2 class="text-xl font-bold text-[#D4C47E] mb-3">O que você vai aprender nas Pompolimpíadas</h2>
+          <!-- Descrição da seção -->
+          <p class="mx-auto text-sm text-white leading-tight">
+            Participe da superaula gratuita de Ginástica Íntima no dia 13 de agosto, às 20h, e tenha acesso a todo o conteúdo do curso. Aprenda a dominar a arte do aperta e solta e conquiste o ouro em saúde íntima, autoestima e prazer. Inscreva-se nas Pompolimpíadas 2024 para alcançar o topo em todas as suas relações. <span class="text-[#D4C47E]">Veja abaixo o que você vai aprender:</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- Cards de aprendizado -->
+      <div class="container mx-auto px-6 text-center pt-8 pb-16">
+        <div class="relative inline-block">
+          <!-- Imagem principal dos cards -->
+          <img src="imagens/Group 359.png" alt="Cards detalhando o que será aprendido no curso" class="mx-auto rounded-lg shadow-2xl max-w-3xl w-full" width="768" height="500" loading="lazy" decoding="async">
+          <!-- Seta decorativa sobreposta -->
+          <img src="imagens/seta1.png" alt="Seta indicativa sobreposta" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 w-32" width="128" height="128" loading="lazy" decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção PPKA Sedentária x Atleta -->
+    <section class="section-fundo2-bg relative overflow-hidden pb-32 lg:pb-16" style="margin-top: -1rem;">
+      <!-- Imagem decorativa -->
+      <img src="imagens/06 2.png" alt="Medalhas decorativas" class="absolute top-8 left-0 hidden lg:block opacity-80 max-w-xs" width="250" height="400" loading="lazy" decoding="async">
+
+      <div class="container mx-auto px-6 relative z-10 py-16">
+        <!-- Texto explicativo central -->
+        <div class="text-center mb-12 max-w-4xl mx-auto p-12" style="background-image: url('imagema.png'); background-size: contain; background-repeat: no-repeat; background-position: center;">
+          <h2 class="text-[28px] font-extrabold text-white leading-[122.5%]">
+            Existem dois tipos de ppka, aquelas que dominam a modalidade do aperta e solta e as que não praticam nenhum exercício, ou seja, as sedentárias.
+          </h2>
+          <!-- Linha divisória decorativa -->
+          <img src="imagens/Linha1.png" alt="Divisor" class="mx-auto mt-6">
+        </div>
+
+        <!-- Cards PPKA Sedentária -->
+        <div class="max-w-6xl mx-auto space-y-12">
+          <div>
+            <!-- Título da categoria -->
+            <h3 class="text-lg font-bold text-white bg-[#1A2E8A] py-2 px-8 rounded-full border-2 border-blue-300 w-fit mx-auto">PPKA SEDENTÁRIA</h3>
+            <!-- Grid de cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+              <!-- Card individual -->
+              <div class="bg-white rounded-xl flex items-stretch overflow-hidden shadow">
+                <div class="w-20 flex-shrink-0" style="background-image: url('imagens/fundo3.png'); background-size: cover; background-position: center;"></div>
+                <div class="p-3 flex-grow flex items-center justify-center">
+                  <span class="text-[#1A18BB] font-semibold text-center leading-tight">Não sente vontade de ter relação íntima</span>
+                </div>
+              </div>
+              <div class="bg-white rounded-xl flex items-stretch overflow-hidden shadow">
+                <div class="w-20 flex-shrink-0" style="background-image: url('imagens/fundo3.png'); background-size: cover; background-position: center;"></div>
+                <div class="p-3 flex-grow flex items-center justify-center">
+                  <span class="text-[#1A18BB] font-semibold text-center leading-tight">Tem escape de urina quando faz esforço</span>
+                </div>
+              </div>
+              <div class="bg-white rounded-xl flex items-stretch overflow-hidden shadow">
+                <div class="w-20 flex-shrink-0" style="background-image: url('imagens/fundo3.png'); background-size: cover; background-position: center;"></div>
+                <div class="p-3 flex-grow flex items-center justify-center">
+                  <span class="text-[#1A18BB] font-semibold text-center leading-tight">Sente fortes cólicas menstruais todos os meses</span>
+                </div>
+              </div>
+              <div class="bg-white rounded-xl flex items-stretch overflow-hidden shadow">
+                <div class="w-20 flex-shrink-0" style="background-image: url('imagens/fundo3.png'); background-size: cover; background-position: center;"></div>
+                <div class="p-3 flex-grow flex items-center justify-center">
+                  <span class="text-[#1A18BB] font-semibold text-center leading-tight">Não tem lubrificação</span>
+                </div>
+              </div>
+              <div class="bg-white rounded-xl flex items-stretch overflow-hidden shadow">
+                <div class="w-20 flex-shrink-0" style="background-image: url('imagens/fundo3.png'); background-size: cover; background-position: center;"></div>
+                <div class="p-3 flex-grow flex items-center justify-center">
+                  <span class="text-[#1A18BB] font-semibold text-center leading-tight">Solta barulhos durante a relação (flatos)</span>
+                </div>
+              </div>
+              <div class="bg-white rounded-xl flex items-stretch overflow-hidden shadow">
+                <div class="w-20 flex-shrink-0" style="background-image: url('imagens/fundo3.png'); background-size: cover; background-position: center;"></div>
+                <div class="p-3 flex-grow flex items-center justify-center">
+                  <span class="text-[#1A18BB] font-semibold text-center leading-tight">Sente dor na hora da relação</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cards PPKA Atleta -->
+          <div>
+            <h3 class="text-lg font-bold text-gray-800 bg-[#C4B36A] py-2 px-8 rounded-full border-2 border-yellow-700 w-fit mx-auto">PPKA ATLETA</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+              <!-- Card individual atleta -->
+              <div class="bg-[#F2EAC5] rounded-xl flex items-stretch overflow-hidden shadow">
+                <div class="w-20 flex-shrink-0" style="background-image: url('imagens/fundo3.png'); background-size: cover; background-position: center;"></div>
+                <div class="p-3 flex-grow flex items-center justify-center">
+                  <span class="text-[#1A18BB] font-semibold text-center leading-tight">É muito mais molhadinha</span>
+                </div>
+              </div>
+              <div class="bg-[#F2EAC5] rounded-xl flex items-stretch overflow-hidden shadow">
+                <div class="w-20 flex-shrink-0" style="background-image: url('imagens/fundo3.png'); background-size: cover; background-position: center;"></div>
+                <div class="p-3 flex-grow flex items-center justify-center">
+                  <span class="text-[#1A18BB] font-semibold text-center leading-tight">Sente muito mais vontade de ter relação</span>
+                </div>
+              </div>              
+              <div class="bg-[#F2EAC5] rounded-xl flex items-stretch overflow-hidden shadow">
+                <div class="w-20 flex-shrink-0" style="background-image: url('imagens/fundo3.png'); background-size: cover; background-position: center;"></div>
+                <div class="p-3 flex-grow flex items-center justify-center">
+                  <span class="text-[#1A18BB] font-semibold text-center leading-tight">Não sofre com infecções de recorrência</span>
+                </div>
+              </div>
+              <div class="bg-[#F2EAC5] rounded-xl flex items-stretch overflow-hidden shadow">
+                <div class="w-20 flex-shrink-0" style="background-image: url('imagens/fundo3.png'); background-size: cover; background-position: center;"></div>
+                <div class="p-3 flex-grow flex items-center justify-center">
+                  <span class="text-[#1A18BB] font-semibold text-center leading-tight">Não sofre com cólicas menstruais</span>
+                </div>
+              </div>
+              <div class="bg-[#F2EAC5] rounded-xl flex items-stretch overflow-hidden shadow">
+                <div class="w-20 flex-shrink-0" style="background-image: url('imagens/fundo3.png'); background-size: cover; background-position: center;"></div>
+                <div class="p-3 flex-grow flex items-center justify-center">
+                  <span class="text-[#1A18BB] font-semibold text-center leading-tight">É mais preparada para enfrentar os incômodos da menopausa</span>
+                </div>
+              </div>
+              <div class="bg-[#F2EAC5] rounded-xl flex items-stretch overflow-hidden shadow">
+                <div class="w-20 flex-shrink-0" style="background-image: url('imagens/fundo3.png'); background-size: cover; background-position: center;"></div>
+                <div class="p-3 flex-grow flex items-center justify-center">
+                  <span class="text-[#1A18BB] font-semibold text-center leading-tight">Fica muito mais resistente no pré e no pós-parto</span>
+                </div>
+              </div>
+              <div class="bg-[#F2EAC5] rounded-xl flex items-stretch overflow-hidden shadow">
+                <div class="w-20 flex-shrink-0" style="background-image: url('imagens/fundo3.png'); background-size: cover; background-position: center;"></div>
+                <div class="p-3 flex-grow flex items-center justify-center">
+                  <span class="text-[#1A18BB] font-semibold text-center leading-tight">É altamente orgástica</span>
+                </div>
+              </div>
+              <div class="bg-[#F2EAC5] rounded-xl flex items-stretch overflow-hidden shadow">
+                <div class="w-20 flex-shrink-0" style="background-image: url('imagens/fundo3.png'); background-size: cover; background-position: center;"></div>
+                <div class="p-3 flex-grow flex items-center justify-center">
+                  <span class="text-[#1A18BB] font-semibold text-center leading-tight">Não tem escape de urina causado pela frouxidão íntima</span>
+                </div>
+              </div>
+            </div>
+            <!-- Seta decorativa indicando continuação -->
+            <div class="text-center mt-12">
+              <img src="imagens/seta.png" alt="Seta para baixo" class="inline-block" width="50" height="50" loading="lazy" decoding="async">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção “Quem vai te ensinar” -->
+    <section class="section-quem-vai-te-ensinar-bg pt-16 pb-16 relative">
+      <div class="container mx-auto px-6 relative z-10">
+        <div class="flex flex-col lg:flex-row items-start">
+          <!-- Seta lateral decorativa -->
+          <div class="w-16 flex-shrink-0 flex justify-center lg:justify-start pt-32">
+            <img src="imagens/seta3.png" alt="Seta decorativa" class="w-4 h-auto" width="16" height="100" loading="lazy" decoding="async">
+          </div>
+
+          <!-- Texto sobre a instrutora -->
+          <div class="w-full lg:flex-1 text-white">
+            <div class="max-w-4xl pl-4 lg:pl-8">
+              <h2 class="text-4xl font-bold text-[#D4C47E] mb-12">Quem vai te ensinar</h2>
+              <p class="text-lg leading-relaxed mb-8">
+                Cátia Damasceno é fisioterapeuta especializada em uroginecologia, e iniciou seu trabalho ensinando exercícios de Ginástica Íntima para o fortalecimento da musculatura de mulheres com problema de flacidez íntima após o parto.
+              </p>
+              <div class="relative mb-8">
+                <p class="text-lg leading-relaxed">
+                  Desde então, se especializou em Ginástica Íntima feminina e, ao longo de mais de 15 anos de carreira, seus cursos e palestras já ajudaram milhares de mulheres pelo Brasil. Ao todo, são mais de 150 mil alunas participando ativamente das suas metodologias.
+                </p>
+              </div>
+              <p class="text-lg leading-relaxed">
+                Atualmente, Cátia é bastante reconhecida por esse trabalho e se tornou a precursora da Ginástica Íntima no Brasil, tornando-se a maior referência nacional no assunto. Já participou de vários programas influentes na mídia, como o "Programa do Jô", "Tonight Show" na CNN, "Se Joga", também da Rede Globo, e vários outros.
+              </p>
+            </div>
+          </div>
+
+          <!-- Imagem da instrutora -->
+          <div class="w-full lg:w-1/3 mt-8 lg:mt-0 flex justify-center lg:justify-end relative">
+            <img src="imagens/Agrupar 6 1.png" alt="Foto de Cátia Damasceno" class="max-w-sm lg:max-w-md relative z-20" style="margin-top: -6rem; margin-bottom: -4rem;" width="400" height="600" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer: rodapé com informações de contato, endereço e direitos -->
+  <footer class="footer-bg text-gray-900 py-8">
+    <div class="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-center md:text-left space-y-6 md:space-y-0">
+      
+      <!-- Informações de contato -->
+      <div class="text-sm opacity-90">
+        <p>suporte@mulheresbemresolvidas.com.br | CNPJ: 23.705.563.0001/80.</p>
+        <p>SHTN Bloco D RUV, SHCS CLS 216 - Asa Sul, Brasília - DF, 70294-530</p>
+      </div>
+
+      <!-- Logo no rodapé -->
+      <div>
+        <img src="imagens/Azul 2.png" alt="Pompo Olimpíadas Logo Rodapé" class="w-48" width="192" height="90" loading="lazy" decoding="async">
+      </div>
+
+      <!-- Links de privacidade e direitos autorais -->
+      <div class="text-sm opacity-90">
+        <a href="#" class="hover:underline">Política de privacidade</a> | <a href="#" class="hover:underline">Termos de uso</a> © 2022 Todos os direitos reservados
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
